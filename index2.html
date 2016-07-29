@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>微站首页</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/base.css">
+	<style>
+		body{
+			background-color: #000;
+		}
+		*{
+			margin:0;
+			padding:0;
+		}
+		ul li
+		{
+			list-style-type: none;
+		}
+		a{
+			text-decoration: none;
+		}
+		#wrap
+		{
+			/*max-width: 640px;*/
+	 		margin:0 auto;
+	 		height: 1220px;
+			position: relative;
+			overflow: hidden;
+		}
+		#warpper{
+			width: 100%;
+			height: auto;
+			position: absolute;
+			/*z-index: -1;*/
+			overflow: hidden;
+			/*background: #ccc;*/
+		}
+		#scroller{
+			width: 640px;
+		}
+		#scroller li{
+			display: block;
+			float: left;
+			/*width:100%;*/
+			/*max-width: 640px;*/
+			height: 1220px;
+
+		}
+		/*#scroller li img
+		{
+			max-width:100%;
+		}*/
+	
+	 	#header 
+	 	{
+	 		max-width: 640px;
+	 		margin:0 auto;
+	 		position: relative;
+	 		padding-right: 5%;
+	 		/*left: 40px;
+	 		top:10px;*/
+	 	}
+	 	#header img
+	 	{
+			vertical-align: top;
+			display: block;
+	 	}
+	 	#header .logo_pic
+	 	{
+			position: absolute;
+			left:40px;
+			top:10px;
+	 	}
+	 	#header .title_pic
+	 	{
+			position: absolute;
+			top:110px;
+			right:10%;
+			max-width: 90%;
+	 	}
+		#main
+		{
+			max-width:640px;
+			height: 100%;
+			margin:0 auto;
+			position: relative;
+			top:340px;
+			/*border: 1px solid black;*/
+			
+		}
+		#main p
+		{
+			font-family: "微软雅黑";
+			font-size: 2em;
+			color: white;
+		}
+		.content_section
+		{
+			-webkit-transition: all 1s;
+			display: -webkit-box;
+			-webkit-box-align: center;
+			-webkit-box-pack: center;
+			-webkit-box-orient:vertical;
+		}
+		.lxf_intro
+		{
+			max-width: 275px;
+			width:44%;
+			height: 305px;
+			background-color: rgba(224,179,92,.84);
+			position: absolute;
+			top:0px;
+			left:40px;
+			
+		}
+		.lxf_service
+		{
+			max-width: 275px;
+			width:44%;
+			height: 295px;
+			background-color: rgba(223,123,82,.84);
+			position: absolute;
+			top:324px;
+			left:40px;
+		}
+		.lxf_work
+		{
+			max-width: 275px;
+			width:44%;
+			height: 142px;
+			background-color: rgba(125,188,156,.85);
+			position: absolute;
+			top:640px;
+			left:40px;
+		}
+		.lxf_ad
+		{
+			max-width: 265px;
+			width: 42%;
+			height: 145px;
+			background-color: rgba(121,172,194,.85);
+			position: absolute;
+			top:0px;
+			/*left:335px;*/
+			left:54%;
+		}
+		.lxf_res
+		{
+			max-width: 265px;
+			width:42%;
+			height: 286px;
+			background-color: rgba(115,115,174,.84);
+			position: absolute;
+			top:165px;
+			/*left:335px;*/
+			left:54%;
+		}
+		.lxf_sample
+		{
+			max-width: 265px;
+			width:42%;
+			height: 142px;
+			background-color: rgba(220,93,158,.84);
+			position: absolute;
+			top:471px;
+			/*left:335px;*/
+			left:54%;
+		}
+		.lxf_news
+		{
+			max-width: 265px;
+			width:42%;
+			height: 142px;
+			background-color: rgba(165,115,98,.84);
+			position: absolute;
+			top:640px;
+			/*left:335px;*/
+			left:54%;
+		}
+
+		.lxf-lj-footer
+		{
+		}
+		@media screen and (min-width: 641px){
+				
+				
+				.content_section
+				{
+					max-width: 180px;
+				}
+				.content_section p img
+				{
+					width:150%;
+				}
+				.lxf_intro
+				{
+					top:0px;
+					left:230px;	
+				}
+				.lxf_service
+				{
+					top:0px;
+					left:30px;
+				}
+				.lxf_work
+				{
+					
+					top:330px;
+					left:230px;
+				}
+				.lxf_ad
+				{
+					
+					top:330px;
+					left:30px;
+				}
+				.lxf_res
+				{
+					
+					top:0px;
+					left:430px;
+				}
+				.lxf_sample
+				{
+					
+					top:501px;
+					left:430px;				
+				}
+				.lxf_news
+				{
+					
+					top:310px;
+					left:430px;
+				}
+		}
+		@media screen and (min-width: 460px){
+			#scroller li img
+				{
+					height:100%;
+				}
+			.content_section p img
+				{
+					width:150%;
+				}
+		}
+			
+			
+		@media screen and (max-width: 460px){
+			
+				#wrap
+				{
+			 		height: 580px;
+				}
+			
+				/*#main
+				{
+					height:600px;
+
+				}*/
+				#header
+				{
+					/*margin-right: 5%;*/
+				}
+			 	#header .logo_pic
+			 	{
+					width: 25%;
+					left:24px;
+			 	}
+		 	 	#header .title_pic
+		 	 	{
+		 			width: 60%;
+		 			top:55px;
+		 			margin-left: 10%;
+		 	 	}
+				#main
+				{
+					top:150px;
+				}
+				#main p
+				{
+					font-size: 1em;
+				}
+				
+				.content_section
+				{
+					width: 40%;
+					height: 24%;
+					/*left:24px;*/
+				}	
+				
+				.lxf_intro
+				{
+					top:0px;
+					/*width: 135px;*/
+					left:24px;
+				}
+				.lxf_service
+				{
+					top:26%;
+					left:24px;
+				}
+				.lxf_work
+				{
+					
+					top:52%;
+					left:24px;
+
+					height:12%;
+				}
+				.lxf_ad
+				{
+					
+					top:0px;
+					height:11%;
+					left:52%;
+				}
+				.lxf_res
+				{
+					
+					top:13%;
+					left:52%;
+				}
+				.lxf_sample
+				{
+					
+					top:39%;
+					height:12%;
+					left:52%;
+				}
+				.lxf_news
+				{
+					
+					top:53%;
+					height:11%;
+					left:52%;
+				}
+				#header .title_pic
+			 	{
+					left:12%;
+
+			 	}	
+
+
+		}
+
+	</style>
+	
+<script type="text/javascript" src="js/iscroll.js"></script>
+
+<script type="text/javascript">
+var myScroll;
+
+function loaded(){
+
+	//new iScroll(添加滑动对象的id名,对象（json，hash）);
+	//获取元素
+	var oScroller=document.getElementById("scroller");
+	var aScrollerLi=oScroller.children;//children：获取子节点
+	var word=document.getElementById("word");
+ 
+	//运算ul的宽:子节点的数量*一个li的宽
+	oScroller.style.width=aScrollerLi.length*aScrollerLi[0].offsetWidth+"px";
+	
+	myScroll = new iScroll("warpper",{
+		snap: true,//捕捉
+		momentum: false,//惯性
+		hScrollbar: false,
+		onScrollEnd: function (){
+
+			var thisIndex=this.currPageX;//获取当前的下标
+			index=thisIndex;
+			word.src="img/index/ad_word_"+index+".png";
+
+
+		}
+	});
+
+	/*var index=0;
+	
+	setInterval(function (){
+		index++;
+		if (index>=aScrollerLi.length){
+
+			index=0;
+		}
+		myScroll.scrollToPage(index);
+		word.src="img/index/ad_word_"+index+".png";
+	},3000);*/
+
+
+	
+}	
+//window.onload->
+document.addEventListener("DOMContentLoaded", loaded, false);
+</script>
+
+</head>
+<body>
+	<div id="wrap">
+	
+		<div id="warpper">
+			<ul id="scroller">
+					<li><img src="img/index/index_bg1.jpg"  alt=""></li>
+					<li><img src="img/index/index_bg2.jpg" alt=""></li>
+					<li><img src="img/index/index_bg3.jpg" alt=""></li>
+			</ul>
+		</div>
+	<!-- 头部 -->
+	<div id="header">
+		
+		<img src="img/index/logo.png" alt="掌聚无线" class="logo_pic">
+		<img src="img/index/ad_word_0.png" alt="" class="title_pic" id="word">
+	</div>
+	<!-- 内容主体main -->
+	
+	<div id="main">
+
+		<a href="Company-Introduce.html">
+			<div class="content_section lxf_intro">
+			<p><img src="img/two/icon_intro.png" alt=""></p>
+			<p>掌聚简介</p>
+			</div>
+		</a>
+		<a href="Service.html">
+			<div class="content_section lxf_service">
+				<p><img src="img/two/icon_service.png" alt=""></p>
+				<p>服务内容</p>
+			</div>
+		</a>
+		<a href="Cooperation.html">
+			<div class="content_section lxf_work">
+				<p><img src="img/two/icon_work.png" alt=""></p>
+				<p>合作案例</p>
+			</div>
+		</a>	
+		<a href="Ad.html">
+			<div class="content_section lxf_ad">
+				<p><img src="img/two/icon_ad.png" alt=""></p>
+				<p>广告形式</p>
+			</div>
+		</a>
+		<a href="Resourse.html">
+			<div class="content_section lxf_res">
+				<p><img src="img/two/icon_res.png" alt=""></p>
+				<p>特色资源</p>
+			</div>
+		</a>
+		<a href="Co-branding.html">
+			<div class="content_section lxf_sample">
+				<p><img src="img/two/icon_sample.png" alt=""></p>
+				<p>合作品牌</p>
+			</div>
+		</a>
+		<a href="Consulting.html">
+			<div class="content_section lxf_news">
+				<p><img src="img/two/icon_news.png" alt=""></p>
+				<p>行业资讯</p>
+			</div>
+		</a>
+	</div>
+	<div class="Lj-public-footer lxf-lj-footer">
+		<a href="Recruit.html" class="Lj-public-recruit-btn clearfix vm">
+			<img src="img/lj-public-recruit-btn.png" alt="" class="Lj-public-recruit-pic">
+		</a>
+		<a href="index.html" class="Lj-public-home-btn clearfix vm">
+			<img src="img/lj-public-home-btn.png" alt="" class="Lj-public-home-pic">
+		</a>
+		<a href="Contact.html" class="Lj-public-contact-btn clearfix vm">
+			<img src="img/lj-public-contact-btn.png" alt="" class="Lj-public-contact-pic">
+		</a>
+	</div>
+	</div>
+</body>
+<script>
+	
+var count = document.getElementById("scroller").getElementsByTagName("img").length;	
+
+for(i=0;i<count;i++){
+ document.getElementById("scroller").getElementsByTagName("img").item(i).style.cssText = " width:"+document.body.clientWidth+"px";
+
+}
+document.getElementById("scroller").style.cssText = " width:"+document.body.clientWidth*count+"px";
+
+ setInterval(function(){
+myScroll.scrollToPage('next', 0,300,count);
+},3000 );
+window.onresize = function(){ 
+for(i=0;i<count;i++){
+document.getElementById("scroller").getElementsByTagName("img").item(i).style.cssText = " width:"+document.body.clientWidth+"px";
+
+}
+ document.getElementById("scroller").style.cssText = " width:"+document.body.clientWidth*count+"px";
+} 
+
+
+</script>
+</html>

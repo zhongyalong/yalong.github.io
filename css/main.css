@@ -1,0 +1,900 @@
+/*main css*/
+/*Lj*/
+/*2014-4-26*/
+
+body,html{
+	width: 100%;
+}
+body{
+	/*overflow: hidden;*/
+	position: relative;
+}
+/*Lj-Public-Head-BG*/
+.Lj-Public-Head-BG{
+	background: url(../img/lj-Public-head-bg.png) no-repeat;
+	background-size: cover;
+}
+/*Lj-public*/
+/*Lj-public-head*/
+.Lj-public-head{
+	width: 100%;
+	/*min-width: 320px;*/
+}
+.Lj-public-head-bg{
+	display: block;
+	width: 100%;
+}
+.Lj-public-head-title{
+	overflow: hidden;
+	top: 52.7%;
+	left: 14.3%;
+	width: 32%;
+	max-width: 201px;
+	height: 25%;
+	max-height: 55px;
+}
+.Lj-public-head-title-pic{
+	display: block;
+	width: 100%;
+	max-width: 201px;
+}
+/*Lj-public-content*/
+.Lj-public-content{
+	width: 100%;
+	max-width: 640px;
+	/*by：唐 data:5.7 start*/
+	min-height: 400px;
+	/*by：唐 data:5.7 end*/
+	/*min-width: 320px;*/
+}
+/*Lj-public-footer*/
+.lxf-lj-footer{	
+	position: absolute;
+	bottom: 0px;
+}
+.Lj-public-footer{
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	/*min-width: 320px;*/
+	background-color: #404040;
+}
+.Lj-public-recruit-btn{
+	width: 22.7%;
+	max-width: 145px;
+}
+.Lj-public-home-btn{
+	margin: 0 15%;
+	width: 12%;
+	max-width: 77px;
+}
+.Lj-public-contact-btn{
+	width: 21.6%;
+	max-width: 138px;
+}
+.Lj-public-recruit-pic,.Lj-public-home-pic,.Lj-public-contact-pic{
+	width: 100%;
+}
+
+/*Lj-coBranding*/
+/*Lj-coBranding-head*/
+.Lj-coBranding-head{
+	margin-bottom: 65px;
+}
+/*Lj-coBranding-content*/
+.Lj-coBranding-content{
+	margin-bottom: 47px;
+	width: 85.9%;
+	max-width: 550px;
+	text-align: center;
+}
+.Lj-coBranding-brand{
+	display: inline-block;
+	margin-bottom: 29px;
+	width: 44.4%;
+	max-width: 253px;
+}
+.Lj-coBranding-brand-logo{
+	width: 100%;
+	border: 1px #c6c6c6 solid;
+}
+
+/*Lj-Service*/
+/*Lj-Service-head*/
+.Lj-Service-head{
+	margin-bottom: 24px;
+}
+/*Lj-Service-content-public*/
+.Lj-Service-content{
+	width: 84.8%;
+	max-width: 543px;
+	text-align: center;
+}
+.Lj-Service-fieldset{
+	display: inline-block;
+	margin-bottom: 39px;
+	padding: 2%;
+	width: 80%;
+	border-width: 3px;
+	border-style: solid;
+	border-radius: 9px;
+}
+.Lj-Service-legend{
+	margin-left: 4%;
+	width: 26%;
+	max-width: 141px;
+	line-height: 55px;
+	border-radius: 8px;
+	font-size: 30px;
+	font-family: Arial;
+}
+.Lj-Service-content-title{
+	width: 100%;
+	color: #fff;
+}
+.Lj-Service-content-pic{
+	display: block;
+	width: 100%;
+}
+/*Lj-Service-content-car*/
+.Lj-Service-car-section{
+	border-color: #f39801;
+}
+.Lj-Service-car-title{
+	background-color: #f39801;
+}
+/*Lj-Service-content-bank*/
+.Lj-Service-bank-section{
+	border-color: #6ab155;
+}
+.Lj-Service-bank-title{
+	background-color: #6ab155;
+}
+/*Lj-Service-content-consume*/
+.Lj-Service-consume-section{
+	border-color: #a55baa;
+}
+.Lj-Service-consume-title{
+	background-color: #a55baa;
+}
+
+/*Lj-comIntroduce*/
+/*Lj-comIntroduce-head*/
+.Lj-comIntroduce-head{
+	margin-bottom: 53px;
+}
+.Lj-comIntroduce-content{
+	width: 88.3%;
+	max-width: 565px;
+}
+/*Lj-comIntroduce-content-public*/
+.Lj-comIntroduce-content-p{
+	overflow: hidden;
+	margin-bottom: 18px;
+	line-height: 34px;
+	text-indent: 2em;
+	font-size: 22px;
+}
+.Lj-comIntroduce-content-companyName{
+	display: inline;
+	color: #68b253;
+}
+.Lj-comIntroduce-content-p-pic1{
+	float: left;
+	margin: 0 21px 36px 0px;
+	width: 39.2%;
+	max-width: 251px;
+}
+.Lj-comIntroduce-content-p-pic2{
+	float: right;
+	margin: 0 21px 36px 0px;
+	width: 39.2%;
+	max-width: 251px;
+}
+.Lj-comIntroduce-content-p2-pic,.Lj-comIntroduce-content-p3-pic{
+	width: 100%;
+}
+
+/*Lj-Consulting*/
+/*Lj-Consulting-head*/
+.Lj-Consulting-head{
+	margin-bottom: 43px;
+}
+/*Lj-Consulting-content*/
+.Lj-Consulting-content{
+	margin-bottom: 183px;
+	width: 89.7%;
+	max-width: 574px;
+}
+.Lj-Consultint-date{
+	overflow: hidden;
+	color: #949494;
+	font: 14px arial;
+}
+/*by:唐向荣 data:5月7日15:50  start*/
+/* .Lj-Consulting-content-title{
+	cursor: pointer;
+} */
+
+.Lj-Consulting-content-icon{
+	float: right;
+	width: 21px;
+	height: 14px;
+	max-width: 21px;
+	margin-top: 5px;
+	background: url(../img/lj-consult-btn.jpg) 0 0 no-repeat;
+}
+
+.Lj-Consulting-content-title a{
+	text-decoration: none;
+	color: #000;
+}
+
+/*by:唐向荣 data:5月7日15:50  end*/
+/* .Lj-Consulting-content-icon-pic{
+	width: 100%;
+} */
+.Lj-Consulting-content-title{
+	font: 22px microsoft YAHEI;
+}
+.Lj-Consulting-inner-content{
+	display: none;
+	overflow: hidden;
+	height: 200px;
+}
+.Lj-Consulting-depart{
+	margin: 14px auto;
+	width: 97%;
+	height: 1px;
+	max-width: 558px;
+	background: #cfcfcf;
+}
+
+.Lj-ConsultingDetails-content{
+	width: 89.7%;
+	max-width: 574px;
+}
+.Lj-ConsultingDetails-content-title{
+	margin-bottom: 4px;
+}
+.Lj-ConsultingDetails-content-bigtitle{
+	margin-bottom: 17px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+	font-family: arial,YAHEI;
+}
+.Lj-ConsultingDetails-content-date{
+	margin-bottom: 14px;
+	text-align: center;
+	color: #949494;
+	font-size: 17px;
+	font-family: arial,YAHEI;
+}
+.Lj-ConsultingDetails-content-date span:before{
+	content: "来源: ";
+}
+.Lj-ConsultingDetails-content-date var:before{
+	content: "时间: "; 
+}
+.Lj-ConsultingDetails-depart{
+	overflow: hidden;
+	width: 515px;
+	height: 1px;
+	background-color: #949494;
+}
+.Lj-ConsultingDetails-content-details{
+	width: 97.3%;
+	max-width: 558px;
+}
+
+/*Lj-Cooperation*/
+/*Lj-Cooperation-head*/
+.Lj-Cooperation-head{
+	margin-bottom: 18px;
+}
+/*Lj-Cooperation-content-public*/
+.Lj-Cooperation-content{
+	width: 88.8%;
+	max-width: 568px;
+}
+.Lj-Cooperation-content-p{
+	margin-bottom: 41px;
+}
+.Lj-Cooperation-content-head{
+	overflow: hidden;
+	margin-bottom: 22px;
+}
+.Lj-Cooperation-content-head-num{
+	float: left;
+	margin-right: 2%;
+	width: 10.2%;
+	max-width: 58px;
+}
+.Lj-Cooperation-content-head-num1,.Lj-Cooperation-content-head-num2,.Lj-Cooperation-content-head-num3{
+	display: block;
+	width: 100%;
+}
+.Lj-Cooperation-content-head-bigTitle{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: microsoft YAHEI;
+}
+.Lj-Cooperation-content-head-smallTitle{
+	color: #858585;
+	font-size: 22px;
+	font-family: microsoft YAHEI;
+}
+.Lj-Cooperation-content-body-pic{
+	width: 100%;
+}
+.Lj-Cooperation-content-title{
+	font-size: 24px;
+	font-family: microsoft YAHEI;
+}
+.Lj-Cooperation-content-text{
+	line-height: 35px;
+	font-size: 22px;
+	font-family: microsoft YAHEI;
+}
+.Lj-Cooperation-content-depart{
+	margin-top: 3px;
+	height: 3px;
+}
+
+
+
+.Lj-Cooperation-content-p1-color{
+	color: #0470bb;
+}
+.Lj-Cooperation-content-body-pic1{
+	float: left;
+	margin-right: 3.1%;
+	width: 36.4%;
+	max-width: 207px;
+}
+.Lj-Cooperation-content-p1-depart1,.Lj-Cooperation-content-p1-depart2{
+	width: 54.6%;
+	max-width: 200px;
+	height: 100%;
+}
+.Lj-Cooperation-content-p1-depart3{
+	width: 93%;
+	max-width: 528px;
+	height: 100%;
+}
+
+
+.Lj-Cooperation-content-body-pic2{
+	float: right;
+	margin-left: 2.8%;
+	width: 36.8%;
+	max-width: 209px;
+}
+.Lj-Cooperation-content-p2-color{
+	color: #a568b5;
+}
+.Lj-Cooperation-content-p2-depart1,.Lj-Cooperation-content-p2-depart2{
+	width: 54.4%;
+	height: 100%;
+}
+
+.Lj-Cooperation-content-body-pic3{
+	float: left;
+	margin-right: 2.5%;
+	width: 39.8%;
+	max-width: 226px;
+}
+.Lj-Cooperation-content-p3-color{
+	color: #e08922;
+}
+.Lj-Cooperation-content-p3-depart1{
+	width: 53%;
+	max-width: 303px;
+	height: 100%;
+}
+.Lj-Cooperation-content-p3-depart2{
+	width: 70%;
+	height: 100%;
+}
+
+
+/*Lj - 2014-4-27*/
+/*Lj-Ad-public-section*/
+.Lj-Ad-BG{
+	position: relative;
+	background: url(../img/lj-ad-bg.png) no-repeat;
+	background-size: cover;
+}
+.Lj-Ad-public-footer{
+	overflow: hidden;
+	margin: 0 auto;
+	padding-top: 3px ;
+	width: 100%;
+	/*min-width: 320px;*/
+	background: #000000;
+}
+.Lj-Ad-public-footer-tray{
+	margin: 0 auto;
+	width: 98.2%;
+	text-align: center;
+	background: -webkit-linear-gradient(top,#363636,#232323);
+	background: -moz-linear-gradient(top,#363636,#232323);
+	background: -o-linear-gradient(top,#363636,#232323);
+	background: linear-gradient(top,#363636,#232323);
+}
+.Lj-Ad-public-footer-tray:after{
+	content: "";
+	display: inline-block;
+	width: 0;
+	height: 64px;
+	vertical-align: middle;
+}
+.Lj-Ad-public-footer-home-btn{
+	width: 14%;
+	max-width: 89px;
+}
+.Lj-Ad-public-footer-recruit-btn{
+	margin: 0 16.5%;
+	width: 21.3%;
+	max-width: 136px;
+}
+.Lj-Ad-public-footer-contact-btn{
+	width: 20%;
+	max-width: 128px;
+}
+.Lj-Ad-public-footer-btn-pic{
+	width: 100%;
+}
+
+/*Lj-addetails-content*/
+.Lj-adDetails-content{
+	width: 100%;
+	max-width: 640px;
+}
+.Lj-adDetails-content-btns{
+	width: 14.4%;
+	max-width: 92px;
+	cursor: pointer;
+}
+.Lj-adDetails-content-btn{
+	width: 100%;
+	max-width: 92px;
+}
+.Lj-adDetails-content-mainContent{
+	width: 65.6%;
+	max-width: 426px;
+}
+/*切换部分-标题部分*/
+.Lj-adDetails-mainContent-title-list{
+	overflow: hidden;
+	width: 47.2%;
+	max-width: 201px;
+}
+.Lj-adDetails-mainContent-title-pic{
+	width: 100%;
+	max-width: 201px;
+}
+/*切换部分-图片部分*/
+.Lj-adDetails-mainContent-Slide{
+	overflow: hidden;
+	margin: 0 auto 15px;
+	width: 426px;
+}
+.Lj-adDetails-mainContent-show{
+	overflow: hidden;
+	height: 562px;
+}
+.Lj-adDetails-mainContent-show-list{
+	overflow: hidden;
+	float: left;
+	width: 426px;
+}
+.Lj-adDetails-mainContent-show-pic{
+	width: 85%;
+	max-width: 362px;
+}
+/*切换部分-指示器部分*/
+.Lj-adDetails-mainContent-indicators{
+	overflow: hidden;
+	text-align: center;
+}
+.Lj-adDetails-mainContent-indicators-dot{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: url(../img/lj-addetails-dots1.png) 0 -10px no-repeat;
+}
+.Lj-adDetails-mainContent-indicators-dot:nth-child(1){
+	background: url(../img/lj-addetails-dots1.png) 0 0 no-repeat;
+}
+.Lj-adDetails-back-btn{
+	position: absolute;
+	right: 0px;
+	bottom: 9.4%;
+	width: 16.6%;
+	max-width: 106px;
+	text-decoration: none;
+}
+.Lj-adDetails-back-btn-pic{
+	display: block;
+	border: none;
+	width: 100%;
+}
+
+
+/*Lj - 2014-4-28*/
+/*Lj-Resourse*/
+.Lj-Resourse-content{
+	width: 81.9%;
+	max-width: 524px;
+}
+.Lj-Resourse-content-title{
+	margin-bottom: 13px;
+	width: 35.2%;
+	max-width: 225px;
+}
+.Lj-Resourse-content-title-pic{
+	width: 100%;
+}
+.Lj-Resourse-content-con{
+	margin-bottom: 44px;
+}
+.Lj-Resourse-content-text{
+	padding-left: 8.6%;
+	color: #4f4f4f;
+	line-height: 31px;
+	font-size: 22px;
+	font-family: microsoft YAHEI;
+}
+
+/*Lj-Ad*/
+.Lj-adDetails-head{
+	margin-bottom: 91px;
+}
+.Lj-Ad-content{
+	text-align: center;
+}
+.Lj-Ad-content-btn{
+	display: inline-block;
+	margin: 0 2.4% 35px;
+	width: 26.9%;
+	max-width: 172px;
+}
+.Lj-Ad-content-btn-pic{
+	width: 100%;
+}
+
+/*2014-5-5*/
+/*Lj-Recruit*/
+.Lj-Recruit-head{
+	margin-bottom: 40px;
+}
+.Lj-Recruit-content{
+	margin-bottom: 132px;
+	width: 86.25%;
+	max-width: 552px;
+}
+.Lj-Recruit-job-name{
+	width: 93.5%;
+	max-width: 516px;
+	background-color: #d6d6d6;
+}
+.Lj-Recruit-content-part5 .Lj-Recruit-job-description{
+	padding-left: 2em;
+	text-indent: 0;
+}
+/*Lj-Recruit-public-part*/
+.Lj-Recruit-content-title{
+	font-weight: bold;
+}
+.Lj-Recruit-icon{
+	margin-right: 1.5%;
+	width: 1.9%;
+	max-width: 10px;
+}
+.Lj-Recruit-content-text{
+	line-height: 45px;
+	text-indent: 1em;
+	font-size: 22px;
+	font-family: arial microsoft YAHEI;
+	color: #4e4e4e;
+}
+.Lj-Recruit-depart{
+	overflow: hidden;
+	width: 95.3%;
+	height: 1px;
+	background-color: #cfcfcf;
+}
+
+
+/*Lj-Contact*/
+.Lj-Contact-head{
+	margin-bottom: 45px;
+}
+.Lj-Contact-content{
+	width: 84.1%;
+	max-width: 538px;
+}
+.Lj-Contact-content-text{
+	color: #4e4f4f;
+	line-height: 39px;
+	text-indent: 0.4em;
+	font-size: 21px;
+	font-family: arial microsoft YAHEI;
+}
+.Lj-Contact-content-text span{
+	display: inline-block;
+	vertical-align: top;
+	width: 19%;
+	min-width: 56px;
+	font-weight: bold;
+}
+.Lj-Contact-content-text span img{
+	margin-right: 5px;
+	width: 10%;
+	max-width: 10px;
+}
+.Lj-Contact-content-text var{
+	display: inline-block;
+	width: 70%;
+}
+.Lj-Contact-depart{
+	overflow: hidden;
+	width: 98%;
+	height: 1px;
+	background: #cfcfcf;
+}
+.Lj-Contact-mail{
+	margin-bottom: 28px;
+}
+.Lj-Contact-map{
+	margin-bottom: 28px;
+	width: 100%;
+	max-width: 536px;
+	height: 391px;
+	border: 1px #ccc solid;
+}
+
+
+
+
+
+
+
+
+/*Lj-media search*/
+@media screen and (min-width: 380px) and (max-width: 600px) {
+	.Lj-Service-legend{
+		line-height: 48px;
+		font-size: 26px;
+	}
+	.Lj-comIntroduce-content-p{
+		font-size: 16px;
+	}
+	.Lj-coBranding-head{
+		margin-bottom: 49px;
+	}
+	.Lj-coBranding-brand{
+		margin-bottom: 23px;
+	}
+	.Lj-Consulting-head{
+		margin-bottom: 33px;
+	}
+	.Lj-Consulting-content-title{
+		font-size: 16px;
+	}
+	.Lj-Consulting-inner-content{
+		height: 150px;
+	}
+	.Lj-Cooperation-content-head{
+		margin-bottom: 18px;
+	}
+	.Lj-Cooperation-content-head-bigTitle{
+		font-size: 25px;
+	}
+	.Lj-Cooperation-content-head-smallTitle{
+		font-size: 20px;
+	}
+	.Lj-Cooperation-content-title{
+		font-size: 20px;
+	}
+	.Lj-Cooperation-content-text{
+		line-height: 30px;
+		font-size: 18px;
+	}
+	.Lj-Cooperation-content-depart{
+		margin-top: 2px;
+		height: 2px;
+	}
+	.Lj-adDetails-mainContent-Slide{
+		width: 319.5px;
+	}
+	.Lj-adDetails-mainContent-show{
+		height: 421.5px;
+	}
+	.Lj-adDetails-mainContent-show-list{
+		width: 319.5px;
+	}
+	.Lj-Resourse-content-title{
+		margin-bottom: 9px;
+	}
+	.Lj-Resourse-content-con{
+		margin-bottom: 33px;
+	}
+	.Lj-Resourse-content-text{
+		font-size: 16.5px;
+		line-height: 24px;
+	}
+	.Lj-adDetails-head{
+		margin-bottom: 67px;
+	}
+	.Lj-Ad-content-btn{
+		margin: 0 1.8% 26px;
+	}
+	.Lj-Contact-head{
+		margin-bottom: 34px;
+	}
+	.Lj-Contact-content-text{
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.Lj-Contact-map{
+		margin-bottom: 21px;
+		height: 294px;
+	}
+	.Lj-Recruit-head{
+		margin-bottom: 30px;
+	}
+	.Lj-Recruit-content{
+		margin-bottom: 99px;
+	}
+	.Lj-Recruit-content-text{
+		line-height: 33.5px;
+		text-indent: 0.75em;
+		font-size: 16px;
+	}
+	.Lj-ConsultingDetails-content-bigtitle{
+		margin-bottom: 12px;
+		font-size: 20px;
+		font-family: arial,YAHEI;
+	}
+	.Lj-ConsultingDetails-content-date{
+		margin-bottom: 11px;
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 379px) {
+	.Lj-Service-head{
+		margin-bottom: 18px;
+	}
+	.Lj-Service-fieldset{
+		margin-bottom: 28px;
+	}
+	.Lj-Service-fieldset .Lj-Service-legend{
+		line-height: 38px;
+		font-size: 18px;
+	}
+	.Lj-comIntroduce-head{
+		margin-bottom: 40px;
+	}
+	.Lj-comIntroduce-content-p{
+		margin-bottom: 10px;
+		line-height: 24px;
+		font-size: 12px;
+	}
+	.Lj-comIntroduce-content-p-pic1,.Lj-comIntroduce-content-p-pic2{
+		margin: 0 10px 18px 0px;
+	}
+	.Lj-coBranding-head{
+		margin-bottom: 33px;
+	}
+	.Lj-coBranding-brand{
+		margin-bottom: 17px;
+	}
+	.Lj-Consulting-head{
+		margin-bottom: 22px;
+	}
+	.Lj-Consulting-content-title{
+		font-size: 12px;
+	}
+	.Lj-Consulting-inner-content{
+		height: 100px;
+	}
+	.Lj-Consultint-date{
+		font-size: 12px;
+	}
+	.Lj-Cooperation-content-p{
+		margin-bottom: 30px;
+	}
+	.Lj-Cooperation-content-head{
+		margin-bottom: 12px;
+	}
+	.Lj-Cooperation-content-head-bigTitle{
+		font-size: 15px;
+	}
+	.Lj-Cooperation-content-head-smallTitle{
+		font-size: 12px;
+	}
+	.Lj-Cooperation-content-title{
+		font-size: 12px;
+	}
+	.Lj-Cooperation-content-text{
+		line-height: 24px;
+		font-size: 12px;
+	}
+	.Lj-Cooperation-content-depart{
+		margin-top: 1px;
+		height: 1px;
+	}
+	.Lj-adDetails-mainContent-Slide{
+		width: 213px;
+	}
+	.Lj-adDetails-mainContent-show{
+		height: 281px;
+	}
+	.Lj-adDetails-mainContent-show-list{
+		width: 213px;
+	}
+	.Lj-adDetails-head{
+		margin-bottom: 45px;
+	}
+	.Lj-adDetails-mainContent-indicators-dot{
+		width: 5px;
+		height: 5px;
+		background: url(../img/lj-addetails-dots2.png) 0 -5px no-repeat;
+	}
+	.Lj-adDetails-mainContent-indicators-dot:nth-child(1){
+		background: url(../img/lj-addetails-dots2.png) 0 0 no-repeat;
+	}
+	.Lj-Ad-content-btn{
+		margin: 0 1.2% 17px;
+	}
+	.Lj-Ad-public-footer-tray:after{
+		height: 32px;
+	}
+	.Lj-Resourse-content-title{
+		margin-bottom: 6px;
+	}
+	.Lj-Resourse-content-con{
+		margin-bottom: 22px;
+	}
+	.Lj-Resourse-content-text{
+		font-size: 12px;
+		line-height: 16px;
+	}
+	.Lj-Contact-head{
+		margin-bottom: 23px;
+	}
+	.Lj-Contact-content-text{
+		line-height: 18px;
+		font-size: 12px;
+	}
+	.Lj-Contact-map{
+		margin-bottom: 14px;
+		height: 195px;
+	}
+	.Lj-Recruit-head{
+		margin-bottom: 20px;
+	}
+	.Lj-Recruit-tips{
+		margin-bottom: 298px;
+	}
+	.Lj-Recruit-content{
+		margin-bottom: 66px;
+	}
+	.Lj-Recruit-content-text{
+		line-height: 22.5px;
+		text-indent: 0.5em;
+		font-size: 12px;
+	}
+	.Lj-ConsultingDetails-content-bigtitle{
+		margin-bottom: 8px;
+		font-size: 14px;
+		font-family: arial,YAHEI;
+	}
+	.Lj-ConsultingDetails-content-date{
+		margin-bottom: 7px;
+		font-size: 12px;
+	}
+}
